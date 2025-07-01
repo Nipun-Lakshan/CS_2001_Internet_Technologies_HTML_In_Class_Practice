@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>HTML Forms</h1>
+    <form>
+      <table border="10px" cellpadding="10px" cellspacing="10px">
+        <tr>
+          <td>Name</td>
+          <td><input type="text" name="name" /></td>
+        </tr>
+        <tr>
+          <td>Age</td>
+          <td><input type="number" name="Age" /></td>
+        </tr>
+        <tr>
+          <td>District</td>
+          <td>
+            <select name="district" id="district">
+              <option value="Colombo">Colombo</option>
+              <option value="Jaffna">Jaffna</option>
+              <option value="Kandy" selected>Kandy</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" name="gender" value="male" /> Male
+            <input type="radio" name="gender" value="female" /> Female
+          </td>
+        </tr>
+        <tr></tr>
+        <td>Favourite Sport</td>
+        <td>
+          <input type="checkbox" name="gender" value="male" /> Cricket
+          <input type="checkbox" name="gender" value="female" /> Football
+          <input type="checkbox" name="gender" value="female" /> Netball
+        </td>
+      </table>
+    </form>
+  </body>
+</html>

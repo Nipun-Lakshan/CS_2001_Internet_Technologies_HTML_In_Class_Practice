@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <table border="1" align="center">
+        <tr>
+          <td colspan="2" align="center">Registration Page</td>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <!-- Input text form and type is text to enter data -->
+          <td><input type="text" name="name" size="30" /></td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <!-- Input text and type is password to encrypt data -->
+          <td><input type="password" name="password" size="20" /></td>
+        </tr>
+        <tr>
+          <td>Country</td>
+          <!-- List Box / Combo Box to select one item out of the given list -->
+          <td>
+            <select name="country" id="country">
+              <option>Sri Lanka</option>
+              <option>India</option>
+              <option selected>Nepal</option>
+              <option>Japan</option>
+              <option>England</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Fruits</td>
+          <!-- List box to select and display many items out of the given list -->
+          <td>
+            <select name="fruits" id="fruits" multiple size="3">
+              <option>Mango</option>
+              <option>Banana</option>
+              <option>Apple</option>
+              <option>Pineapple</option>
+              <option>Papaya</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <!-- Radio Button to select one item out of the given list -->
+          <td>
+            <input type="radio" name="gender" value="Female" /> Female
+            <input type="radio" name="gender" value="Male" /> Male
+          </td>
+        </tr>
+        <tr>
+          <td>Hobbies</td>
+          <!-- Checkbox for multiple selection -->
+          <td>
+            <input type="checkbox" name="Cricket" /> Cricket
+            <input type="checkbox" name="Swimming" /> Swimming
+            <input type="checkbox" name="Rugby" /> Rugby
+            <input type="checkbox" name="Football" /> Football
+          </td>
+        </tr>
+        <tr>
+          <td>Photo</td>
+          <!-- File field to browse a file -->
+          <td><input type="file" name="photo" /></td>
+        </tr>
+        <tr>
+          <td>Comments</td>
+          <!-- text area -->
+          <td>
+            <textarea name="message" id="message" rows="5" cols="50">
+Write your comment here....</textarea
+            >
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <!-- create reset and submit button -->
+            <input type="Reset" value="Cancel" />
+            <input type="Submit" value="Send" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
